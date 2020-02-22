@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="@dimen/marginSize"
+    android:layout_marginLeft="@dimen/marginSize"
+    android:layout_marginBottom="@dimen/marginSize">
+
+    <View
+        android:id="@+id/view_mainfill"
+        android:layout_width="4dp"
+        android:layout_height="22dp"
+        android:background="@color/maincolor"/>
+
+    <TextView
+        android:id="@+id/tv_maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐歌单"
+        android:textColor="@color/titleColor"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/marginTabSize"/>
+</LinearLayout>
